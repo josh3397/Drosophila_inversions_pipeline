@@ -28,7 +28,7 @@ The filtering can be done using script `Filtering_inversions.py`. This script wi
 To run for all 71 pairs,
 
 ```
-/path/to/psl_files; do python3 Filtering_inversions.py ${file}; done
+for file in /path/to/psl_files; do python3 Filtering_inversions.py ${file}; done
 ```
 
 4. Merging nearby inversion blocks and counting total inverted bp
